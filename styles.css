@@ -1,3 +1,36 @@
+.btn {
+
+    border-radius: 5px;
+    height: 40px;
+    width: 175px;
+    text-align: center;
+    margin:auto;
+    transition: background-color 0.3s ease;
+    --opacity-amount: 1;
+
+
+}
+
+.btn:hover {
+
+--opacity-amount: 0.75;
+
+}
+
+.button-text {
+
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.green-button {
+    
+    background-color: rgba(23, 138, 39, var(--opacity-amount));
+}
+
+
 nav {
 
     display: flex;
@@ -48,6 +81,7 @@ a {
     margin: auto;
     padding: 10px;
     font-size: 1.3vw;
+    font-weight: 300;
     padding: 1vw 2vw;
     
 }
@@ -69,12 +103,20 @@ a {
 
     margin: auto;
     padding: 20vh;
+    
 
 }
 
 h1 {
 
     font-size: 8.5vh;
+    font-weight: 300;
+}
+
+h4 {
+
+    font-weight: 300;
+
 }
 
 .feature-card-section {
@@ -96,6 +138,7 @@ height: 30%;
 
     
     font-weight: 700;
+    font-size: 20px;
 
 }
 
