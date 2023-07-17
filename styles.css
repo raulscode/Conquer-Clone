@@ -119,9 +119,12 @@ h4 {
 
 }
 
+.main
+
 .feature-card-section {
 
     display: flex;
+    margin:auto;
 
 }
 
