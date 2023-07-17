@@ -1,0 +1,106 @@
+nav {
+
+    display: flex;
+    background-color: #383E4C;
+    height: 10.5vh;
+    margin: none;
+}
+
+body {
+
+    margin: 0px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.nav-links-section {
+
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.nav-link {
+
+    background-color: #383E4C;
+    border: 1px solid #646d7c;
+    color: #fff;
+    margin: 0 1.5vw 0 0;
+    transition: background-color 0.3s ease;
+
+}
+
+.nav-link:hover {
+
+    background-color: #49505F;
+
+}
+
+.nav-text {
+
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.3vw;
+    padding: 1vw 2vw;
+    
+}
+
+#main-hero {
+
+    background-image: url("nighttime-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+
+    margin: auto;
+    padding: 20vh;
+
+}
+
+h1 {
+
+    font-size: 8.5vh;
+}
+
+.feature-card-section {
+
+    display: flex;
+
+}
+
+.feature-card {
+
+background-color: gainsboro;
+border: 1px solid black;
+width: 20%;
+height: 30%;
+
+}
+
+.feature-card-title {
+
+    
+    font-weight: 700;
+
+}
+
+.green-version {
+
+    color: #178A27;
+    
+}
