@@ -30,13 +30,26 @@
     background-color: rgba(23, 138, 39, var(--opacity-amount));
 }
 
+.blue-button {
+    
+    background-color: rgba(22, 134, 209, var(--opacity-amount));
+}
+
+.red-button {
+    
+    background-color: rgba(133, 36, 06, var(--opacity-amount));
+}
+
 
 nav {
 
     display: flex;
     background-color: #383E4C;
     height: 10.5vh;
+    width: 100%;
     margin: none;
+    position: fixed;
+    z-index: 1000;
 }
 
 body {
@@ -86,23 +99,38 @@ a {
     
 }
 
-#main-hero {
+.main-hero {
 
-    background-image: url("nighttime-hero-image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
     height: 70vh;
     padding: 1px;
     text-align: center;
     color: #fff;
     text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero-background {
+
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-image: url("nighttime-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
 }
 
 .hero-text {
 
     margin: auto;
     padding: 20vh;
+    z-index: 1;
+    position: relative;
     
 
 }
@@ -135,7 +163,7 @@ h4 {
 
 background-color: gainsboro;
 width: 25%;
-height: 30%;
+height: 50vh;
 margin: 50px;
 padding: 0 0px 25px 0px;
 
@@ -153,4 +181,28 @@ padding: 0 0px 25px 0px;
 
     color: #178A27;
     
+}
+
+.feature-card-image-container {
+
+
+    height: 40%;
+
+}
+
+.feature-card-image {
+
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card-content {
+
+    margin: 20px;
+    font-size: 14px;
+    color: #333333;
+
 }
