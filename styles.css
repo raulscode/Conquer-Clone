@@ -381,3 +381,44 @@ padding: 0 0px 25px 0px;
     object-fit: cover;
 
 }
+
+.big-column-section {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 0px 0px 0px;
+    
+}
+
+.big-column-card {
+
+    background-color: #F2F2F2;
+    width: 75%;
+    height: 100%;
+    margin: 15px 0px 15px 35px;
+    padding: 0 0px 25px 0px;
+
+}
+
+.big-column-card-image-container {
+
+
+    height: 60%;
+
+}
+
+.big-column-card-image {
+
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.default-margin {
+
+    margin: 0% 0% 0% 0%;
+
+}
