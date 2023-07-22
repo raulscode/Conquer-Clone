@@ -46,7 +46,7 @@
     background-color: rgba(255, 255, 255, var(--opacity-amount));
     color: #666666;
     border: 1px solid #918e8e;
-    margin: 10% 10% 10% 65%;
+    margin: auto;
     width: 150px;
 }
 
@@ -293,7 +293,7 @@ padding: 0 0px 25px 0px;
     width: 555px;
     height: 540px;
     margin: 15px 0px 15px 30px;
-    padding: 0 0px 25px 0px;
+    padding: 0 0px 10px 0px;
 }
 
 .two-column-card-image {
@@ -311,6 +311,8 @@ padding: 0 0px 25px 0px;
     height: 43%;
 
 }
+
+
 
 .service-background {
 
@@ -430,6 +432,12 @@ padding: 0 0px 25px 0px;
 .default-margin {
 
     margin: 0% 0% 0% 0%;
+
+}
+
+.right-align-margin {
+
+    margin: 20px 0px 0px 60%;
 
 }
 
