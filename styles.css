@@ -1,3 +1,9 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 .btn {
 
     border-radius: 5px;
